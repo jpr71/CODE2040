@@ -2,7 +2,7 @@ require 'rest_client'
 require 'json'
 
 res = RestClient.post "http://challenge.code2040.org/api/time", {
-  :email => 'joshuapr1@gmail.com',
+  :email => 'aaaaaaa@gmail.com',
   :github => 'https://github.com/jpr71',
   :token => 'dNs4ea9kg1'
   }.to_json
@@ -143,7 +143,7 @@ p date
 
 
 res1 = RestClient.post "http://challenge.code2040.org/api/validatetime", {
-  :email => 'joshuapr1@gmail.com',
+  :email => 'aaaaaa@gmail.com',
   :github => 'https://github.com/jpr71',
   :token => 'dNs4ea9kg1',
   :datestamp => date
