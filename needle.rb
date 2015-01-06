@@ -2,7 +2,7 @@ require 'rest_client'
 require 'json'
 
 res = RestClient.post "http://challenge.code2040.org/api/haystack", {
-  :email => 'joshuapr1@gmail.com',
+  :email => 'aaaaaaa@gmail.com', #this is a fake email
   :github => 'https://github.com/jpr71',
   :token => 'dNs4ea9kg1'
   }.to_json
@@ -18,7 +18,7 @@ while haystack[index] != needle
 end
 
 res1 = RestClient.post "http://challenge.code2040.org/api/validateneedle", {
-  :email => 'joshuapr1@gmail.com',
+  :email => 'aaaaaaa@gmail.com', #this is a fake email
   :github => 'https://github.com/jpr71',
   :token => 'dNs4ea9kg1',
   :needle => index
